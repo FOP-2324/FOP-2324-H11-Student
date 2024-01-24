@@ -43,11 +43,3 @@ jagr {
         }
     }
 }
-
-tasks {
-    withType<GraderRunTask> {
-        doFirst {
-            throw GradleException("Public Tests available soon!")
-        }
-    }
-}
