@@ -70,13 +70,13 @@ public class Warehouse {
 
     @StudentImplementationRequired
     public long getTotalQuantityOfProduct(Product product) {
-        // TODO H2.2
+        // TODO H2.3
         return crash();
     }
 
     @StudentImplementationRequired
     public double getTotalPrice() {
-        // TODO H2.3
+        // TODO H2.4
         return crash();
     }
 
