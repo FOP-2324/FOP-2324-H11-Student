@@ -70,25 +70,25 @@ public class Warehouse {
 
     @StudentImplementationRequired
     public long getTotalQuantityOfProduct(Product product) {
-        // TODO H2.2
-        return crash();
-    }
-
-    @StudentImplementationRequired
-    public double getTotalPrice() {
         // TODO H2.3
         return crash();
     }
 
     @StudentImplementationRequired
+    public double getTotalPrice() {
+        // TODO H2.4
+        return crash();
+    }
+
+    @StudentImplementationRequired
     public void addProducts(Product product, int numberOfProducts) {
-        // TODO H2.5
+        // TODO H2.6
         crash();
     }
 
     @StudentImplementationRequired
     public Stream<Product> generateProducts(ProductType typ, double price, String name) {
-        // TODO H2.4
+        // TODO H2.5
         return crash();
     }
 }
